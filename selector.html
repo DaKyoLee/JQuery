@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>home</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+</script>
+<style media="screen">
+  body{
+    background-image: url('back.jpg');
+    width: 960px;
+    margin: auto;
+    text-align: center;
+  }
+  #header>h1>a{
+    color: white;
+    text-decoration: none;
+  }
+  #navi{
+    background: #87cefa	;
+    display: inline-block;
+    width: 38.5%;
+
+  }
+  #section{
+    color: white;
+  }
+  #footer{
+    color: white;
+  }
+  .menu li:hover{
+    background-color: #6495ed;
+    color: black;
+  }
+  .menu li{
+  float: left;
+  list-style:none;
+  position: relative;
+
+  }
+  .menu a{
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  }
+
+  </style>
+</head>
+<body>
+<div id="header">
+<h1><a href="home.html">JQuery</a></h1>
+</div>
+<br>
+
+<div id="navi">
+  <ui class="menu">
+    <li><a href="JQuery.html">JQuery란</a></li>
+    <li><a href="method.html">메소드</a></li>
+    <li><a href="selector.html">선택자</a></li>
+    <li><a href="event.html">이벤트</a></li>
+  </ui>
+  </div>
+  <br>
+
+<br>
+
+<div id="section">
+<p>
+  선택자는 DOM 트리에서 변경할 노드를 지정하기 위해 사용하는 표현식이다.<br>
+  CSS3 선택자와 방식이 비슷하여 그나마 이해하기 쉽다.<br><br>
+
+  가장 기본적인 선택자로는 *, 태그명, #(아이디), .(클래스) 다.<br>
+  계층 선택자로 노드의 상하 관계를 이용하여 특정 노드를 선택 하거나 <br>
+  속성 선택자로 해당 속성값이 지정하는 조건을 만족하게 한다.<br><br>
+
+  그 밖에도 선택된 엘리먼트들을 한번 더 제한하는 위치필터 기본 선택자와<br>
+  선택된 엘리먼트 노드들의 위치를 한번 더 거르는 위치필터 계층 선택자,<BR>
+  폼 관련 엘리먼트 중 특정 유형의 필터를 통해 거르는 폼 필터 선택자,<br>
+  현재 웹 브라우저 화면에서 특정 조건을 만족하는지의 여부에 때라 거르는 상대 필터 선택자,<br>
+  엘리먼트의 내용 조건 필터를 통해 다시 거르는 내용 필터 선택자가 있다.<br>
+
+
+</p>
+</div>
+<BR><BR><BR><BR><BR><BR><BR>
+<div id="footer" data-position="fixed">
+  <h5>1905024-이다교</h5>
+  <img src="jelly.gif" alt="">
+</div>
+</body>
+</html>
